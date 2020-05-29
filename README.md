@@ -10,20 +10,6 @@ The list of languages supported is in [languages.txt](languages.txt)
 
 ## Installation
 
-### Install via NPM
-
-Get the package
-
-```shell
-npm i --save-dev @editorjs/code
-```
-
-Include module at your application
-
-```javascript
-const CodeTool = require('@editorjs/code');
-```
-
 ### Download to your project's source dir
 
 1. Upload folder `dist` from repository
