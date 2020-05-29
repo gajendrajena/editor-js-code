@@ -1,6 +1,6 @@
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 
-# Code Tool for Editor.js 2.0 compatible with PrismJs Language Codes
+# Code Tool for Editor.js 2.0 with language selector compatible with PrismJs Language Codes
 
 This a fork of Code Tool for the [Editor.js](https://ifmo.su/editor) that allows to include code examples along with language codes that are supported by PrismJs in your articles.
 
