@@ -12,3 +12,12 @@
     overflow-x: auto;
     resize: vertical;
 }
+
+.ce-code__languagecode {
+    color: #41314e;
+    background: #f8f7fa;
+    font-size: 14px;
+    padding: 1px;
+    margin: 5px 0px;
+    border-radius: .5em;
+}
