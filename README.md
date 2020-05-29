@@ -1,10 +1,12 @@
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 
-# Code Tool for Editor.js
+# Code Tool for Editor.js 2.0 Compatible with PrismJs Language Codes
 
-Code Tool for the [Editor.js](https://ifmo.su/editor) allows to include code examples in your articles.
+This a fork of Code Tool for the [Editor.js](https://ifmo.su/editor) allows to include code examples along with language codes that are supported by PrismJs in your articles.
 
-![](https://capella.pics/8df022f5-b4d5-4d30-a527-2a0efb63f291.jpg)
+![](https://capella.pics/7a1092f7-add5-4dd8-9c8c-2f32cb8c4586.jpg)
+
+The list of languages supported is in [languages.txt](languages.txt)
 
 ## Installation
 
@@ -29,9 +31,9 @@ const CodeTool = require('@editorjs/code');
 
 ### Load from CDN
 
-You can load specific version of package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@editorjs/code).
+You can load latest version of this package from jsDelivr CDN.
 
-`https://cdn.jsdelivr.net/npm/@editorjs/code@2.0.0`
+`https://cdn.jsdelivr.net/gh/paraswaykole/editor-js-code@latest/dist/bundle.js`
 
 Require this script on a page with Editor.js.
 
@@ -71,6 +73,7 @@ This Tool returns code.
     "type" : "code",
     "data" : {
         "code": "body {\n font-size: 14px;\n line-height: 16px;\n}",
+        "languageCode": "css"
     }
 }
 ```
