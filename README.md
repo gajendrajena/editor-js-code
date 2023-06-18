@@ -11,11 +11,11 @@ The list of languages supported is in [languages.txt](languages.txt)
 ## Installation
 ### Via npm
 ```
-npm install @content-harmony/editorjs-code
+npm install editorjs-code
 ```
 ### Via yarn
 ```
-yarn add @content-harmony/editorjs-code
+yarn add editorjs-code
 ```
 ### Download to your project's source dir
 
