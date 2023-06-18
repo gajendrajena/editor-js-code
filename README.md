@@ -9,7 +9,14 @@ This a fork of Code Tool for the [Editor.js](https://ifmo.su/editor) that allows
 The list of languages supported is in [languages.txt](languages.txt)
 
 ## Installation
-
+### Via npm
+```
+npm install editor-js-code
+```
+### Via yarn
+```
+yarn add editor-js-code
+```
 ### Download to your project's source dir
 
 1. Upload folder `dist` from repository
@@ -34,12 +41,12 @@ Add a new Tool to the `tools` property of the Editor.js initial config.
 ```javascript
 var editor = EditorJS({
   ...
-  
+
   tools: {
     ...
     code: CodeTool,
   }
-  
+
   ...
 });
 ```
